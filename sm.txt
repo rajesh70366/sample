@@ -1,1 +1,23 @@
-edjfjse fjioevn  evuirfn csfnnsdfsdnfnsdfsdfnsifwe rwver jwehrwer
+This is called as fast forward merge.
+the commits from the child branch are added to the top of the master branch
+this is very usefull for code from a branch to be reflected as the latest working version on master
+rearranging the commit order
+merge the commits using squash squash means
+
+
+when we create the one branches 1 is master branch
+master branch we create f1 function and a commit and f2 function b commit
+when we create another branch is test branch and while switched to master branch to test branch using git checkout test command
+in that test branch create t1 function c commit and t2 function d commit and also create t3 function e commit 
+all the functions and commits will merged while using git log --oneline command and will show the all functons and commits a,b commits in 
+master branch and c,d,e commits in test branch only e commit is head section resently  e commit
+and finally selective the pickup commits from child branch
+and finally used git rebase master and successfully rebased and updated refs/heads/test 
+
+
+and checkout masterbranch and merge test branch(git merge test)
+and using the git log --oneline command all commits merged
+the purpose of rebase is not an alternative to merge rebase is additional command which when we come to child branch and the rebase master
+after rebasing when we merge child branch what happends the commit switch belonging the child branch will be add3wrur3qr839rcc34uiqcn3843e4uri
+r322qriyv34rh43r3u4r34ry347r34riv3ulryl
+:wq!
